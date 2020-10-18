@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, withRouter } from "react-router-dom";
+import { useSelector, useDispatch } from "react-redux";
+import firebase from "../firebase/config";
 
 function Nav(props) {
   return (
